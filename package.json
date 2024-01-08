@@ -1,0 +1,22 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Weather Bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer-alloc-unsafe": "^1.1.0",
+    "buffer-fill": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "event-target-shim": "^6.0.2",
+    "node-fetch": "^3.3.2",
+    "telegraf": "^4.15.3"
+  }
+}
